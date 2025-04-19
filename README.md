@@ -142,7 +142,7 @@ libra query balance <ACCOUNT>
 6. Assuming you have some unlocked balance, try the transfer again (should succeed now):
 
   ```bash
-  libra txs --chain-id=2 transfer --to <RECIPIENT_ADDRESS> --amount 10
+  libra txs transfer --to-account <RECIPIENT_ADDRESS> --amount 10
   ```
 
 ### Expected Outcome
