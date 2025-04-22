@@ -171,7 +171,7 @@ libra query --url https://twin-rpc.openlibra.space view --function-id 0x1::commu
 2. Submit your vote for a community wallet reauthorization:
 
 ```bash
-libra txs --chain-id=2 community reauthorize --community-wallet <COMMUNITY_WALLET_ADDRESS>
+libra txs --chain-name=testnet community reauthorize --community-wallet <COMMUNITY_WALLET_ADDRESS>
 ```
 
 3. Verify your vote was recorded:
